@@ -1,0 +1,199 @@
+.container {
+    width: 100%;
+  }
+  
+  img {
+    max-width: 100%;
+  }
+  
+  .label {
+    margin-top: 10px;
+    font-size: 1.5em;
+    color: black;
+  }
+  
+  .table-striped > tbody > tr:nth-child(odd) {
+    background-color: #dfeded;
+  }
+  
+  .poke-name-span {
+    margin-left: 10px;
+    font-size: 70%;
+  }
+  
+  .preview {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+  
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+  }
+  @media screen and (max-width: 996px) {
+    .preview {
+      margin-right: 0px;
+    }
+  }
+  
+  .tab-content {
+    margin: auto 0px;
+  }
+  
+  .tab-content img {
+    width: 120%;
+    -webkit-animation-name: opacity;
+    animation-name: opacity;
+    -webkit-animation-duration: 0.3s;
+    animation-duration: 0.3s;
+  }
+  
+  .card {
+    margin: 20px 75px;
+    background: #1cd8d2; /* fallback for old browsers */
+    background: -webkit-linear-gradient(
+      to right,
+      #93edc7,
+      #1cd8d2
+    ); /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(
+      to right,
+      #93edc7,
+      #1cd8d2
+    ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    padding: 3em;
+    line-height: 1.5em;
+    border-radius: 25px;
+  }
+  
+  @media screen and (min-width: 997px) {
+    .wrapper {
+      display: -webkit-box;
+      display: -webkit-flex;
+      display: -ms-flexbox;
+      display: flex;
+    }
+  }
+  
+  .details {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+  }
+  
+  .colors {
+    -webkit-box-flex: 1;
+    -webkit-flex-grow: 1;
+    -ms-flex-positive: 1;
+    flex-grow: 1;
+  }
+  
+  .poke-name {
+    text-transform: UPPERCASE;
+    font-weight: bold;
+    margin-bottom: 15px;
+  }
+  
+  .action {
+    display: flex;
+  }
+  
+  .catch {
+    background: #7afad4;
+    padding: 0.7em 2.5em;
+    margin: 0 auto;
+    border: none;
+    font-weight: bold;
+    color: black;
+    border-radius: 12px;
+    font-size: 1.26em;
+  }
+  
+  .catch:hover,
+  .like:hover {
+    background: #06d496;
+    color: #fff;
+  }
+  
+  .table-container {
+    margin: 10px;
+    padding: 10px;
+    display: flex;
+  }
+  
+  .column {
+    flex: 50%;
+    padding: 10px 30px;
+  }
+  
+  @media only screen and (max-width: 997px) {
+    .table-container {
+      margin: -20px -50px 10px -50px;
+      padding: 10px;
+    }
+    .column {
+      margin-top: 0px;
+    }
+    .table-container {
+      display: unset;
+    }
+    .card {
+      margin: 20px 10px;
+    }
+    .popup-content{
+      width: 90% !important;
+    }
+  }
+  
+  .table td {
+    border-top: none !important;
+    border-bottom: 1px solid #ffe;
+    font-size: 15px;
+  }
+  
+  @-webkit-keyframes opacity {
+    0% {
+      opacity: 0;
+      -webkit-transform: scale(3);
+      transform: scale(3);
+    }
+    100% {
+      opacity: 1;
+      -webkit-transform: scale(1);
+      transform: scale(1);
+    }
+  }
+  
+  @keyframes opacity {
+    0% {
+      opacity: 0;
+      -webkit-transform: scale(3);
+      transform: scale(3);
+    }
+    100% {
+      opacity: 1;
+      -webkit-transform: scale(1);
+      transform: scale(1);
+    }
+  }
+
+  .gif-container{
+    padding-top:40%;
+    position:relative;
+  }
+
+  .gif{
+    position:absolute;
+    top:0;
+    left:25%;
+  }
+  
